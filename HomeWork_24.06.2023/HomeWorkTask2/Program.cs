@@ -8,7 +8,7 @@ int[] GenerateArray(int len, int min, int max) // функция генерац�
     Random rnd = new Random();
     for (int i = 0; i < answer.Length; i++)
     {
-        answer[i] = rnd.Next(min, max + 1);
+        answer[i] = rnd.Next(min, max);
     }
     return answer;
 }

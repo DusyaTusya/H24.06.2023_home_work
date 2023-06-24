@@ -47,7 +47,7 @@ double minDigit(double[] array) // функция нахождения  мини
     return min;
 } 
 
-double[] array = GenerateArray(8,0,100);
+double[] array = GenerateArray(5,0,100);
 PrintArray(array);
 
 double maxNumber = maxDigit(array);
